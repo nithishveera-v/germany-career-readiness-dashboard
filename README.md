@@ -49,19 +49,20 @@ Career_Readiness_Dashboard/
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.png)
+
 
 ### Skills Tracker
 
-![Skills Tracker](screenshots/skilltracker.png)
+![Skills Tracker](Screenshots/skilltracker.png)
 
 ### German Level & Savings
 
-![German Level & Savings](screenshots/language-savings.png)
+![German Level & Savings](Screenshots/language-savings.png)
 
 ### Applications & Roadmap
 
-![Applications & Roadmap](screenshots/applications-roadmap.png)
+![Applications & Roadmap](Screenshots/applications-roadmap.png)
 
 ---
 
