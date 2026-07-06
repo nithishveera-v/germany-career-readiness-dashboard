@@ -83,7 +83,7 @@ Career_Readiness_Dashboard/
 
 - Python Full Stack Developer
 - GitHub: https://github.com/nithishveera-v
-- LinkedIn: https://www.linkedin.com/in/nithish-veera-v/
+- LinkedIn: https://www.linkedin.com/in/nithish-veera
 
 ---
 
