@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Germany Career Readiness Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+    
+    <div class="sidebar">
+
+        <h2>Career Goal</h2>
+
+       <ul>
+    <li><a href="#dashboard">Dashboard</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#german">German Level</a></li>
+    <li><a href="#savings">Savings</a></li>
+    <li><a href="#applications">Applications</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+</ul>
+
+    </div>
+
+    
+    <div class="main-content">
+
+        <div class="container">
+
+            <!-- Hero -->
+            <div id="dashboard" class="hero">
+
+                <h1>Germany Career Readiness Dashboard</h1>
+
+                <p>
+                    Track your journey toward working in Germany
+                </p>
+
+            </div>
+
+            
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <h3>Readiness Score</h3>
+
+                    <p id="readinessMessage">
+                        Beginner Stage
+                    </p>
+
+                    <h2 id="score">0%</h2>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Applications</h3>
+
+                    <h2 id="applicationCount">0</h2>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Savings Progress</h3>
+
+                    <h2 id="savingPercent">0%</h2>
+
+                </div>
+
+            </div>
+
+            
+
+            <section>
+
+                <h2>Readiness Levels</h2>
+
+                <ul class="levels">
+
+                    <li>0–39% → Beginner Stage</li>
+
+                    <li>40–69% → Developing Profile</li>
+
+                    <li>70–89% → Germany Ready</li>
+
+                    <li>90–100% → Strong Candidate</li>
+
+                </ul>
+
+            </section>
+
+           
+
+            <section id="skills">
+
+                <h2>Skills Tracker</h2>
+
+                <label>HTML/CSS</label>
+                <input type="range"
+                id="htmlSkill"
+                min="0"
+                max="100"
+                value="70">
+
+                <label>JavaScript</label>
+                <input type="range"
+                id="jsSkill"
+                min="0"
+                max="100"
+                value="60">
+
+                <label>Python</label>
+                <input type="range"
+                id="pythonSkill"
+                min="0"
+                max="100"
+                value="50">
+
+                <label>SQL</label>
+                <input type="range"
+                id="sqlSkill"
+                min="0"
+                max="100"
+                value="40">
+
+                <button onclick="saveSkills()">
+                    Save Skills
+                </button>
+
+            </section>
+
+           
+            <section id="german">
+
+                <h2>German Level</h2>
+
+                <select id="germanLevel">
+
+                    <option>A1</option>
+                    <option>A2</option>
+                    <option>B1</option>
+                    <option>B2</option>
+                    <option>C1</option>
+
+                </select>
+
+            </section>
+
+           
+
+            <section id="savings">
+
+                <h2>Savings Goal</h2>
+
+                <input
+                type="number"
+                id="currentSavings"
+                placeholder="Current Savings">
+
+                <input
+                type="number"
+                id="targetSavings"
+                placeholder="Target Savings">
+
+                <button onclick="updateSavings()">
+                    Update Savings
+                </button>
+
+            </section>
+
+           
+
+            <section id="applications">
+
+                <h2>Job Applications</h2>
+
+                <input
+                type="text"
+                id="companyName"
+                placeholder="Company Name">
+
+                <button onclick="addApplication()">
+                    Add Application
+                </button>
+                <button onclick="clearApplications()">Clear Applications</button>
+
+                <ul id="applicationList"></ul>
+
+            </section>
+
+           
+
+            <section id="roadmap">
+
+                <h2>Roadmap</h2>
+
+                <div class="roadmap">
+
+                    <label>
+                        <input type="checkbox">
+                        Learn HTML/CSS
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Learn JavaScript
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Learn Python
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Learn SQL
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Build Portfolio
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Reach German A2
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Apply 50 Jobs
+                    </label>
+
+                    <label>
+                        <input type="checkbox">
+                        Save €12,000
+                    </label>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
